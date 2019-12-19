@@ -1,0 +1,113 @@
+.back_img{
+  min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+h1 {
+  color: white;
+  text-align: center;
+	text-shadow: inherit;  
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.favoritestyled{
+	margin-left: 40%;
+	margin-right: auto;
+	background-color: red;
+	border-radius: 22px;
+	text-align: center;
+	border: 1;
+	height: 90px;
+	width: 20%;
+	font-size: 1.5rem;
+	padding-left: 150px;
+	padding: 0 10px;
+	color: yellow;
+
+}
+.jumbotron{
+  margin-top: 15%;
+  margin-right: 30%
+}
+
+
+.favoritestyled:hover{
+	background-color: rgba(178,13,255,0.2);	
+}
+
+.styled {
+	margin-left: 10%;
+  margin-top: 10%
+	margin-right: 30%;
+    border: 0;
+    line-height: 3.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.cstyled {
+  margin-left: 10%;
+  margin-right: 10%;
+    border: 0;
+    line-height: 3.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.cstyled:hover {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.cstyled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
