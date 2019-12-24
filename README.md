@@ -3,3 +3,4 @@ ClinVar is a public resource containing annotations about human genetic variant
 ## Class (Conflicting or Non-Conflicting)
 The objective is to predict whether a ClinVar variant will have conflicting classifications. This is presented here as a binary classification problem, where each record in the dataset is a genetic variant.
 
+![variant](https://raw.githubusercontent.com/arvkevi/clinvar-kaggle/master/clinvar-class-fig.png)
