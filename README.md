@@ -50,10 +50,10 @@ Here in the Dataset there are many variables or features that are not contributi
 ![classifiers](/docs/img/classifiers.png)
 
 For prediction of your test data class with default training data you just have to upload a .csv test file of some observation with unknown class in the link :- 
-http://13.59.213.190.ml/clin_var_pred
+http://13.59.213.190/clin_var_pred
 
 And prediction of your test data class with your training dataset you just have to upload a training data .csv file and test data .csv file in the link :- 
-http://biotoolkit.ml/custom_clinvar
+http://13.59.213.190/custom_clinvar
 
 In the result you will see a confusion matrix of your training dataset and bagging classifier accuracy and result (prediction of class) of your observations in the test dataset.
 
